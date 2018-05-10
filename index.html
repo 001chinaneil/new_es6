@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>es6</title>
-    <script src="./dist/index.js"></script>
+    <script src="./compressed/index.js"></script>
 </head>
 <body>
 <h1>Hello ECMA Script</h1>
+<script type="text/javascript">
+    // (function () {
+    //     var fn;
+    //     function foo(){
+    //         var a = 20;
+    //         function baz(){
+    //             console.log(a);
+    //         }
+    //         fn = baz;
+    //     }
+    //     function bar() {
+    //         fn();
+    //     }
+    //     foo();//确实不打印，因为没有输出，只是走了遍流程
+    //     bar();
+    // })();
+
+    // for(var i = 1;i <= 5 ; i++ ){
+    //     (function (j) {
+    //         setTimeout(function timer() {
+    //             console.log( j );
+    //         },j*1000);
+    //     })(i);
+    // }
+</script>
+<script src="src/this_test.js"></script>
 </body>
 </html>
