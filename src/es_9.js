@@ -11,7 +11,7 @@ console.log(add(1,2));
 function es6_add(a,b=1){
     return a + b;
 }
-console.log(es6_add(1,3));
+console.log(es6_add(1));
 
 //主动抛出错误 throw new Error(); 这也是尤雨溪写Vue框架时，抛出异常的写法。
 function es6_add2(a,b=1) {

@@ -1,0 +1,1 @@
+"use strict";console.log("ES6的数组操作(1)");var json={0:"jspang",1:"技术派",2:"张国彪",length:3},es7_arr=Array.from(json);console.log(es7_arr);var es7_arr1=Array.of(2,8,9,20,48),es7_arr2=Array.of("技术派","技术牛","狮虎","十几户");console.log(es7_arr1,es7_arr2);var es7_arr3=[1,2,3,4,5,6,7,8,9];console.log(es7_arr3.find(function(r,o,s){return 7<r}));

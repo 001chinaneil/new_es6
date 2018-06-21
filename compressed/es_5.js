@@ -1,1 +1,1 @@
-"use strict";var jspang="技术胖123",blob="我是通过"+jspang+"的教程，开始入门ES6编码的。";document.write(blob);
+"use strict";var jspang="技术胖123",blob="我是通过"+jspang+"的教程，开始入门ES6编码的。";document.write(blob);var a=1,b=2,result=""+(a+b);document.write(result);var zgb="张国彪",list="从大学毕业到现在，张国彪通过学习，已经成长了很多。";document.write(list.includes(zgb)),document.write(blob.includes(jspang)),document.write(list.startsWith(zgb)),document.write(list.endsWith(zgb)),document.write("jspang.✨".repeat(3));
